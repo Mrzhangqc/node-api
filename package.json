@@ -1,5 +1,5 @@
 {
-  "name": "data-node-api",
+  "name": "node-api",
   "version": "1.0.0",
   "description": "Express api by node.js",
   "main": "index.js",
