@@ -1,0 +1,5 @@
+node_modules
+/dist
+bulid/
+.vscode
+.DS_Store

@@ -1,0 +1,19 @@
+variables:
+  LANGUAGE: nodejs
+  GIT_SUBMODULE_STRATEGY: recursive
+  GIT_SUBMODULE_UPDATE_FLAGS: --init --recursive --remote
+  DOCKER_IMAGE_NAME: node-api
+
+stages:
+  - build
+
+build:
+  stage: build
+  script:
+    - typhon-ng pack
+    - typhon-ng build-image
+  only:
+  - develop
+  - main
+  tags:
+    - nodejs
