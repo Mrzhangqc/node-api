@@ -8,8 +8,12 @@ const routes = [
     component: './controllers/api-test/get.js',
   },
   {
-    path: '/api/op/employee',
-    component: './controllers/infoservice/employee.js',
+    path: '/api/user/add',
+    component: './controllers/user/add.js',
+  },
+  {
+    path: '/api/user/list',
+    component: './controllers/user/query.js',
   },
   {
     path: '*',

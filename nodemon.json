@@ -9,7 +9,7 @@
   ],
   "verbose": true,
   "execMap": {
-    "js": "node src/app.js"
+    "js": "node src/index.js"
   },
   "watch": [],
   "env": {
