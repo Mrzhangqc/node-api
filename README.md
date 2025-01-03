@@ -3,7 +3,7 @@ nodejs server api
 
 ## usage
 `
-dev: npm run dev
+dev: npm run dev  
 prod: npm run start 
 `
 
